@@ -1,20 +1,19 @@
 {
-  "name": "template-react-component-library",
-  "version": "0.0.1",
+  "name": "@edgar-guzman/template-react-component-library",
+  "version": "0.0.3",
   "description": "A simple template for a custom React component library",
   "scripts": {
     "rollup": "rollup -c"
   },
   "author": "Edgar Guzman",
   "license": "ISC",
-  "dependencies": {
-    "react": "^18.2.0"
-  },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^22.0.2",
     "@rollup/plugin-node-resolve": "^14.1.0",
     "@rollup/plugin-typescript": "^8.5.0",
     "@types/react": "^18.0.20",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "rollup": "^2.79.0",
     "rollup-plugin-dts": "^4.2.2",
     "tslib": "^2.4.0",
@@ -25,5 +24,8 @@
   "files": [
     "dist"
   ],
-  "types": "dist/index.d.ts"
+  "types": "dist/index.d.ts",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/edgar-guzman"
+  }
 }

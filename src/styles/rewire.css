@@ -1,0 +1,193 @@
+*,
+*::before,
+*::after,
+::selection,
+:root,
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    border: 0;
+    outline: 0;
+    margin: 0 0;
+    padding: 0 0;
+    box-sizing: border-box;
+
+    font: inherit;
+    fill: inherit;
+    color: inherit;
+    border-color: inherit;
+    outline-color: inherit;
+    background-color: inherit;
+    vertical-align: baseline;
+    text-shadow: none;
+}
+
+*,
+*::before,
+*::after {
+    margin: 0 0;
+    padding: 0 0;
+    box-sizing: border-box;
+}
+
+::selection {
+    color: #000000;
+    text-shadow: none;
+    background-color: #ffff00;
+}
+
+html {
+    font-size: 100%;
+}
+
+body {
+    line-height: 1;
+}
+
+input,
+button,
+textarea,
+select,
+details,
+summary {
+    border-radius: 0;
+    border-style: solid;
+    border-color: inherit;
+    border-width: 0.0625rem;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+a:hover,
+a:focus,
+a:active {
+    color: inherit;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-color: inherit;
+    text-underline-offset: 0.375rem;
+}
+
+img,
+picture {
+    max-width: 100%;
+    display: block;
+}
+
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    text-align: left;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+table,
+thead,
+tbody,
+tfoot,
+tr,
+td {
+    border-radius: 0;
+    border-style: solid;
+    border-color: inherit;
+    border-width: 0.0625rem;
+}

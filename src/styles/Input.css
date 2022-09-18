@@ -1,0 +1,12 @@
+input,
+button,
+textarea,
+select,
+details,
+summary {
+    font: inherit;
+    border-radius: 0;
+    border-style: solid;
+    border-color: inherit;
+    border-width: 0.0625rem;
+}

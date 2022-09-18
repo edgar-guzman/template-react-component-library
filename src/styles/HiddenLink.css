@@ -1,0 +1,19 @@
+:not(.skip-link):focus {
+    outline: 0.0625rem solid;
+}
+
+.skip-link {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    background-color: #333333;
+    color: #ffffff;
+    padding: .5rem;
+    transition: 0 -100% ease-in-out;
+}
+
+.skip-link:focus {
+    transition: 0;
+}
